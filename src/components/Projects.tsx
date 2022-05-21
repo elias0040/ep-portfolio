@@ -12,7 +12,7 @@ function Projects(props) {
   const [slideSelected, setSlideSelected] = useState(null);
 
   return (
-    <div className="ml-1 w-5/6 h-screen px h-16 flex flex-col justify-start items-start">
+    <div className="ml-1 w-full h-screen px-16 h-16 flex flex-col justify-start items-start">
       <label className="text-pink-700 text-8xl font-bold mb-9">Projects</label>
       <div className="flex flex-row w-full h-screen">
         <div className="w-1/3">
@@ -24,7 +24,7 @@ function Projects(props) {
           </div>
 
         </div>
-        <div className="w-full flex flex-col justify-center items-center">
+        <div className="w-2/3 absolute right-0 flex flex-col ">
           <div className="flex flex-row justify-center items-center flex-wrap">
             <SelectedContext.Provider value={{ slideSelected, setSlideSelected }}>
               <ProjectSlide id={1} pic="p2p.png" label="" bg={"#be185d"} content={Place2Place} />

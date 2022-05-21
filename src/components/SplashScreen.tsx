@@ -9,7 +9,7 @@ function SplashScreen(props) {
   const { setPage } = useContext(PageContext);
 
   return (
-    <div className="ml-1 w-full h-screen py-10 px h-16 flex flex-col justify-center items-start">
+    <div className="ml-1 w-full h-screen py-10 px-20 h-16 flex flex-col justify-center items-start">
       <label className="text-pink-700 text-7xl font-bold mb-2">Hello.</label>
       <label className="text-pink-600 text-6xl font-bold mb-3">
         My name is Elias.

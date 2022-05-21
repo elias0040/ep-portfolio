@@ -41,9 +41,9 @@ function Home() {
         <Sidebar />
       </PageContext.Provider>
       <div className="mainContainer">
-        <div className="flex flex-row justify-start items-center w-full h-screen">
+        <div className="flex relative flex-row justify-start items-center w-full h-screen">
           <SplashScreen about={about} />
-          <div className="w-full flex justify-end items-end h-screen">
+          <div className="w-1/2 absolute right-0 flex justify-end items-end h-screen">
             <MousePosContext.Consumer>
               {value => (
                 <Canvas orthographic camera={{ zoom: 40, position: [10, 10, 10] }} className="threeCanvas">
@@ -58,11 +58,11 @@ function Home() {
           </div>
 
         </div>
-        <div ref={about} className="flex flex-row w-full h-screen">
-          <div className="w-1/3 flex justify-start items-start h-screen">
+        <div ref={about} className="flex relative flex-row w-full h-screen justify-end items-end">
+          <div className="absolute left-0 w-1/2 inline-block flex justify-end items-end h-screen">
             <MousePosContext.Consumer>
               {value => (
-                <Canvas orthographic camera={{ zoom: 40, position: [10, 0, 0] }} className="threeCanvas">
+                <Canvas orthographic camera={{ zoom: 40, position: [10, 0, 0] }}>
                   <ambientLight intensity={1} />
                   <directionalLight position={[180, 0, 180]} intensity={0} />
                   <MousePosContext.Provider value={value}>
@@ -74,7 +74,10 @@ function Home() {
             </MousePosContext.Consumer>
 
           </div>
-          <AboutMe overflow-hidden />
+          <div className="w-2/3">
+            <AboutMe className="overflow-hidden" />
+          </div>
+
         </div>
         <div className="flex flex-row w-full h-screen overflow-hidden">
           <Projects />
