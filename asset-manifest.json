@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/ep-portfolio/static/css/main.12592aef.css",
+    "main.js": "/ep-portfolio/static/js/main.8b9230cd.js",
+    "static/media/p2p.JPG": "/ep-portfolio/static/media/p2p.62291cdea8c37ad872cf.JPG",
+    "static/media/umubook.jpg": "/ep-portfolio/static/media/umubook.04386ea1177cb0cd2b92.jpg",
+    "static/media/test.jpg": "/ep-portfolio/static/media/test.0d165d279e19433b3ec9.jpg",
+    "static/media/umubook2.jpg": "/ep-portfolio/static/media/umubook2.c3954acb0ce9a4d0c24d.jpg",
+    "static/media/ledigajobb.JPG": "/ep-portfolio/static/media/ledigajobb.0e684772b90386a7373d.JPG",
+    "static/media/asp.net.png": "/ep-portfolio/static/media/asp.net.35912308ffd01e7a89ac.png",
+    "static/media/aspnet.png": "/ep-portfolio/static/media/aspnet.35912308ffd01e7a89ac.png",
+    "static/media/umubook.png": "/ep-portfolio/static/media/umubook.e60a862b3f12646b2053.png",
+    "static/media/p2p.png": "/ep-portfolio/static/media/p2p.1cd52bda6d9dac8ab3a4.png",
+    "static/media/java.png": "/ep-portfolio/static/media/java.ddf8676bd569fe01ab44.png",
+    "static/media/csharp.png": "/ep-portfolio/static/media/csharp.fc430729bfa8902c06fd.png",
+    "static/media/react.png": "/ep-portfolio/static/media/react.2a0cac33f155e4a27216.png",
+    "index.html": "/ep-portfolio/index.html",
+    "main.12592aef.css.map": "/ep-portfolio/static/css/main.12592aef.css.map",
+    "main.8b9230cd.js.map": "/ep-portfolio/static/js/main.8b9230cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12592aef.css",
+    "static/js/main.8b9230cd.js"
+  ]
+}
