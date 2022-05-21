@@ -37,7 +37,7 @@ export default function Computer({ ...props }) {
   });*/
 
   const group = useRef();
-  const { nodes, materials } = useGLTF("/computer.gltf");
+  const { nodes, materials } = useGLTF("/ep-portfolio/computer.gltf");
   return (
     <group ref={group} {...props} dispose={null} scale={2}>
       <mesh
@@ -49,4 +49,4 @@ export default function Computer({ ...props }) {
   );
 }
 
-useGLTF.preload("/computer.gltf");
+useGLTF.preload("/ep-portfolio/computer.gltf");
