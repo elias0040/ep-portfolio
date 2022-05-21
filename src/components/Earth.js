@@ -56,7 +56,7 @@ export default function Earth({ ...props }) {
     all.current.rotation.y += 0.001;
   });
 
-  const { nodes, materials } = useGLTF("/earth.gltf");
+  const { nodes, materials } = useGLTF("ep-portfolio/earth.gltf");
 
   materials.White = new MeshToonMaterial({ color: materials.White.color });
   materials.Snow = new MeshToonMaterial({ color: materials.Snow.color });
@@ -158,4 +158,4 @@ export default function Earth({ ...props }) {
   );
 }
 
-useGLTF.preload("/earth.gltf");
+useGLTF.preload("ep-portfolio/earth.gltf");
